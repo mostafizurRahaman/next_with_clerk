@@ -13,7 +13,7 @@ export default function Home() {
       .then((data) => {
         console.log("data", data);
       })
-      .catch((err) => console.log(res));
+      .catch((err) => console.log(err));
   }, []);
   return (
     <main className="pb-14 lg:pr-20">
